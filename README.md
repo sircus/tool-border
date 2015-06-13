@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-gutter-responsive && npm install sircus-global-property
+$ npm install sircus-tools-gutter-responsive sircus-global-property
 ```
 
 ## Usage
