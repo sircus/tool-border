@@ -5,12 +5,12 @@
 > A responsive gutter tools Module for Sircus.
 
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
 $ npm install sircus-tools-gutter-responsive sircus-global-property
@@ -18,20 +18,28 @@ $ npm install sircus-tools-gutter-responsive sircus-global-property
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-tools-gutter-responsive";
+/*
+@import "sircus-tools-gutter-responsive/lib/sm";
+@import "sircus-tools-gutter-responsive/lib/md";
+@import "sircus-tools-gutter-responsive/lib/lg";
+*/
 @import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-property/converted";
-@import "node_modules/sircus-tools-gutter-responsive/converted";
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-tools-gutter-responsive/converted";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/sm";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/md";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/lg";
 ```
 
 
