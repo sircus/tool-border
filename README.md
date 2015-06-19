@@ -2,8 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-gutter-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-gutter-responsive)
 
-> A responsive gutter tools Module for Sircus.
-
 ## Dependencies
 - [sircus-global-property](https://github.com/sircus/global-property)
 
