@@ -20,9 +20,9 @@
     "url": "https://github.com/sircus/tools-gutter-responsive.git"
   },
   "scripts": {
-    "build:sm": "css2scss ./lib/sm.css ./scss/_sm.scss",
-    "build:md": "css2scss ./lib/md.css ./scss/_md.scss",
-    "build:lg": "css2scss ./lib/lg.css ./scss/_lg.scss",
+    "build:sm": "css2scss ./lib/sm-gutter.css ./scss/_sm-gutter.scss",
+    "build:md": "css2scss ./lib/md-gutter.css ./scss/_md-gutter.scss",
+    "build:lg": "css2scss ./lib/lg-gutter.css ./scss/_lg-gutter.scss",
     "build": "npm run build:sm && npm run build:md && npm run build:lg"
   },
   "dependencies": {

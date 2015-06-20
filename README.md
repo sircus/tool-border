@@ -22,9 +22,9 @@ input.css
 ```css
 @import "sircus-tools-gutter-responsive";
 /*
-@import "sircus-tools-gutter-responsive/lib/sm";
-@import "sircus-tools-gutter-responsive/lib/md";
-@import "sircus-tools-gutter-responsive/lib/lg";
+@import "sircus-tools-gutter-responsive/lib/sm-gutter.css";
+@import "sircus-tools-gutter-responsive/lib/md-gutter.css";
+@import "sircus-tools-gutter-responsive/lib/lg-gutter.css";
 */
 @import "sircus-global-property";
 ```
@@ -35,9 +35,9 @@ input.scss
 ```scss
 @import "./node_modules/sircus-global-property/converted";
 @import "./node_modules/sircus-tools-gutter-responsive/converted";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/sm";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/md";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/lg";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/sm-gutter";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/md-gutter";
+// @import "./node_modules/sircus-tools-gutter-responsive/scss/lg-gutter";
 ```
 
 

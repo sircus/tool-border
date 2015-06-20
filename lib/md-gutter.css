@@ -1,13 +1,14 @@
+
 /*
- * sircus-tools-gutter-responsive(sm)
+ * sircus-tools-gutter-responsive(md)
  ================================================== */
 
-@media (--g-viewport-sm) {
-  .t-sm-gutter {
+@media (--g-viewport-md) {
+  .t-md-gutter {
     padding-left:var(--g-gutter);
     padding-right:var(--g-gutter);
   }
-  .t-sm-gutterReset {
+  .t-md-gutterReset {
     margin-left: calc(0 - var(--g-gutter)) !important;
     margin-right: calc(0 - var(--g-gutter)) !important;
   }
