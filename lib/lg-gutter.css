@@ -17,13 +17,13 @@
   }
 
 
-  .t-gutter2x {
+  .t-lg-gutter2x {
     padding-left: calc(var(--g-gutter2x)) !important;
     padding-right: calc(var(--g-gutter2x)) !important;
   }
 
 
-  .t-gutter2xReset {
+  .t-lg-gutter2xReset {
     padding-left: calc(0 - var(--g-gutter2x)) !important;
     padding-right: calc(0 - var(--g-gutter2x)) !important;
   }

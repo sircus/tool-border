@@ -4,25 +4,25 @@
 
 @media #{$g-viewport-sm} {
 
-  .t-lg-gutter {
+  .t-sm-gutter {
     padding-left:$g-gutter;
     padding-right:$g-gutter;
   }
 
 
-  .t-lg-gutterReset {
+  .t-sm-gutterReset {
     margin-left: (0 - $g-gutter) !important;
     margin-right: (0 - $g-gutter) !important;
   }
 
 
-  .t-gutter2x {
+  .t-sm-gutter2x {
     padding-left: ($g-gutter2x) !important;
     padding-right: ($g-gutter2x) !important;
   }
 
 
-  .t-gutter2xReset {
+  .t-sm-gutter2xReset {
     padding-left: (0 - $g-gutter2x) !important;
     padding-right: (0 - $g-gutter2x) !important;
   }
