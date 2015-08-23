@@ -46,10 +46,18 @@ input.scss
 ```html
 <div class="t-sm-gutter"></div>
 <div class="t-sm-gutterReset"></div>
+<div class="t-sm-gutter2x"></div>
+<div class="t-sm-gutter2xReset"></div>
+
 <div class="t-md-gutter"></div>
 <div class="t-md-gutterReset"></div>
+<div class="t-md-gutter2x"></div>
+<div class="t-md-gutter2xReset"></div>
+
 <div class="t-lg-gutter"></div>
 <div class="t-lg-gutterReset"></div>
+<div class="t-lg-gutter2x"></div>
+<div class="t-lg-gutter2xReset"></div>
 ```
 
 

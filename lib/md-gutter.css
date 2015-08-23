@@ -1,15 +1,30 @@
-
 /*
  * sircus-tools-gutter-responsive(md)
  ================================================== */
 
 @media (--g-viewport-md) {
-  .t-md-gutter {
+
+  .t-lg-gutter {
     padding-left:var(--g-gutter);
     padding-right:var(--g-gutter);
   }
-  .t-md-gutterReset {
+
+
+  .t-lg-gutterReset {
     margin-left: calc(0 - var(--g-gutter)) !important;
     margin-right: calc(0 - var(--g-gutter)) !important;
   }
+
+
+  .t-gutter2x {
+    padding-left: calc(var(--g-gutter2x)) !important;
+    padding-right: calc(var(--g-gutter2x)) !important;
+  }
+
+
+  .t-gutter2xReset {
+    padding-left: calc(0 - var(--g-gutter2x)) !important;
+    padding-right: calc(0 - var(--g-gutter2x)) !important;
+  }
+
 }
