@@ -1,7 +1,7 @@
 {
   "name": "sircus-tools-gutter-responsive",
-  "description": "Responsive css gutter tools Module for Sircus.",
-  "version": "0.1.1",
+  "description": "CSS Responsive Tools Module For Vertical Gutter.",
+  "version": "0.1.2",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "modular",
@@ -11,7 +11,7 @@
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
@@ -24,9 +24,6 @@
     "build:md": "css2scss ./lib/md-gutter.css ./scss/_md-gutter.scss",
     "build:lg": "css2scss ./lib/lg-gutter.css ./scss/_lg-gutter.scss",
     "build": "npm run build:sm && npm run build:md && npm run build:lg"
-  },
-  "dependencies": {
-    "sircus-global-property": "^0.3.0"
   },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
