@@ -1,30 +1,24 @@
 /*
  * sircus-tools-gutter-responsive(md)
  ================================================== */
-
 @media #{$g-viewport-md} {
-
   .t-md-gutter {
-    padding-left:$g-gutter;
-    padding-right:$g-gutter;
+    padding-left: $g-gutter;
+    padding-right: $g-gutter;
   }
-
 
   .t-md-gutterReset {
     margin-left: (0 - $g-gutter) !important;
     margin-right: (0 - $g-gutter) !important;
   }
 
-
   .t-md-gutter2x {
     padding-left: ($g-gutter2x) !important;
     padding-right: ($g-gutter2x) !important;
   }
 
-
   .t-md-gutter2xReset {
-    padding-left: (0 - $g-gutter2x) !important;
-    padding-right: (0 - $g-gutter2x) !important;
+    margin-left: (0 - $g-gutter2x) !important;
+    margin-right: (0 - $g-gutter2x) !important;
   }
-
 }
