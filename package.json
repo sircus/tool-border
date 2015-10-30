@@ -1,13 +1,13 @@
 {
   "name": "sircus-tools-gutter-responsive",
-  "description": "CSS Responsive Tools Module For Horizontal Gutter.",
+  "description": "Tools Module For Responsive CSS Horizontal Gutter.",
   "version": "0.1.3",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "modular",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {

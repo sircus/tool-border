@@ -3,15 +3,15 @@
 [![npm version](https://img.shields.io/npm/v/sircus-tools-gutter-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-gutter-responsive)
 
 ## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
+- [sircus-variables](https://github.com/sircus/variables)
 
 
-## Installation
+## Install
 
 > npm:
 
 ```bash
-$ npm install sircus-tools-gutter-responsive sircus-global-property
+$ npm install sircus-tools-gutter-responsive sircus-variables
 ```
 
 ## Usage
@@ -21,23 +21,15 @@ $ npm install sircus-tools-gutter-responsive sircus-global-property
 input.css
 ```css
 @import "sircus-tools-gutter-responsive";
-/*
-@import "sircus-tools-gutter-responsive/lib/sm-gutter.css";
-@import "sircus-tools-gutter-responsive/lib/md-gutter.css";
-@import "sircus-tools-gutter-responsive/lib/lg-gutter.css";
-*/
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-variables/converted";
 @import "./node_modules/sircus-tools-gutter-responsive/converted";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/sm-gutter";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/md-gutter";
-// @import "./node_modules/sircus-tools-gutter-responsive/scss/lg-gutter";
 ```
 
 
