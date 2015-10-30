@@ -8,17 +8,17 @@
   }
 
   .t-sm-gutterReset {
-    margin-left: calc(0 - var(--g-gutter)) !important;
-    margin-right: calc(0 - var(--g-gutter)) !important;
+    margin-left: calc(0 - var(--g-gutter));
+    margin-right: calc(0 - var(--g-gutter));
   }
 
   .t-sm-gutter2x {
-    padding-left: calc(var(--g-gutter2x)) !important;
-    padding-right: calc(var(--g-gutter2x)) !important;
+    padding-left: calc(var(--g-gutter2x));
+    padding-right: calc(var(--g-gutter2x));
   }
 
   .t-sm-gutter2xReset {
-    margin-left: calc(0 - var(--g-gutter2x)) !important;
-    margin-right: calc(0 - var(--g-gutter2x)) !important;
+    margin-left: calc(0 - var(--g-gutter2x));
+    margin-right: calc(0 - var(--g-gutter2x));
   }
 }

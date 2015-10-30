@@ -8,17 +8,17 @@
   }
 
   .t-lg-gutterReset {
-    margin-left: (0 - $g-gutter) !important;
-    margin-right: (0 - $g-gutter) !important;
+    margin-left: (0 - $g-gutter);
+    margin-right: (0 - $g-gutter);
   }
 
   .t-lg-gutter2x {
-    padding-left: ($g-gutter2x) !important;
-    padding-right: ($g-gutter2x) !important;
+    padding-left: ($g-gutter2x);
+    padding-right: ($g-gutter2x);
   }
 
   .t-lg-gutter2xReset {
-    margin-left: (0 - $g-gutter2x) !important;
-    margin-right: (0 - $g-gutter2x) !important;
+    margin-left: (0 - $g-gutter2x);
+    margin-right: (0 - $g-gutter2x);
   }
 }
