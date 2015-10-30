@@ -2,10 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-gutter-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-gutter-responsive)
 
-## Dependencies
-- [sircus-variables](https://github.com/sircus/variables)
-
-
 ## Install
 
 > npm:
